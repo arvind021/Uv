@@ -5,7 +5,8 @@ from typing import Union
 
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup
-from pytgcalls import PyTgCalls, StreamType
+from pytgcalls import PyTgCalls
+from pytgcalls.types.stream import StreamType
 from pytgcalls.exceptions import (
     AlreadyJoinedError,
     NoActiveGroupCall,
@@ -548,4 +549,4 @@ class Call(PyTgCalls):
         if config.STRING2:
             pings.append(await self.two.ping)
         if config.STRING3:
-            pings.append(await self.three.ping)
+            pings.append(await self.
