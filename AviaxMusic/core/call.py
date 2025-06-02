@@ -9,7 +9,7 @@ from pytgcalls.exceptions import (
     NoActiveGroupCall,
 )
 from pytgcalls.types import Update
-from pytgcalls.types.input_streams import AudioPiped, AudioVideoPiped
+from py_tgcalls.types.input_streams import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_streams.quality import HighQualityAudio, MediumQualityVideo
 from pytgcalls.types.streams import StreamAudioEnded
 
