@@ -9,9 +9,9 @@ from pytgcalls.exceptions import (
     NoActiveGroupCall,
 )
 from pytgcalls.types import Update
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
-from pytgcalls.types.stream import StreamAudioEnded
+from pytgcalls.types.input_streams import AudioPiped, AudioVideoPiped
+from pytgcalls.types.input_streams.quality import HighQualityAudio, MediumQualityVideo
+from pytgcalls.types.streams import StreamAudioEnded
 
 import config
 from AviaxMusic import LOGGER, YouTube, app
@@ -30,8 +30,8 @@ from AviaxMusic.utils.database import (
 )
 from AviaxMusic.utils.exceptions import AssistantErr
 from AviaxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AviaxMusic.utils.inline.play import stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
+from AviaxMusic.utils.inline.play import streams_markup
+from AviaxMusic.utils.streams.autoclear import auto_clean
 from AviaxMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
