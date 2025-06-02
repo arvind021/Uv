@@ -5,9 +5,9 @@ from typing import Union
 
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup
-from pytgcalls import PyTgCalls
-from pytgcalls.types.stream import StreamType
-from pytgcalls.exceptions import (
+from py_tgcalls import PyTgCalls
+from py_tgcalls.types import StreamType
+from py_tgcalls.exceptions import (
     AlreadyJoinedError,
     NoActiveGroupCall,
     TelegramServerError,
