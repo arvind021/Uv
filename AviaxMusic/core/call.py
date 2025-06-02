@@ -548,4 +548,4 @@ class Call(PyTgCalls):
         if config.STRING4:
             pings.append(await self.four.ping)
         if config.STRING5:
-            pings.append(await self.five.
+            pings.append(await self.five.ping)
