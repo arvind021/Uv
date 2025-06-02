@@ -549,4 +549,5 @@ class Call(PyTgCalls):
             pings.append(await self.two.ping)
         if config.STRING3:
             pings.append(await self.three.ping)
-        if config.STRI
+        if config.STRI == "some_value":
+    # do something
