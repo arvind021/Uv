@@ -549,5 +549,5 @@ class Call(PyTgCalls):
             pings.append(await self.two.ping)
         if config.STRING3:
             pings.append(await self.three.ping)
-        if config.STRI == "some_value":
-    # do something
+        if config.STRING1:
+    pass  # Yahan pe koi bhi music bot ka code dal sakte hain
